@@ -1,4 +1,4 @@
-package spout;
+package kafka.spout;
 
 import org.apache.storm.spout.SpoutOutputCollector;
 import org.apache.storm.task.TopologyContext;

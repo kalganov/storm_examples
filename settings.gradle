@@ -1,2 +1,3 @@
-rootProject.name = 'simple'
+rootProject.name = 'storm_examples'
+include 'simple', 'kafka'
 
