@@ -3,14 +3,6 @@ plugins {
     id "application"
 }
 
-ext {
-    javaMainClass = "kafka.Main"
-}
-
-application {
-    mainClassName = javaMainClass
-}
-
 dockerCompose {
     useComposeFiles = ['src\\main\\resources\\zk-single-kafka-single.yml']
 }
@@ -18,4 +10,5 @@ dockerCompose {
 dependencies {
     implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.4.0'
     implementation group: 'org.apache.storm', name: 'storm-kafka-client', version: '2.1.0'
+    compile group: 'org.apache.storm', name: 'storm-core', version: '2.1.0'
 }

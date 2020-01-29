@@ -10,7 +10,7 @@ import org.apache.storm.topology.TopologyBuilder;
 
 import static org.apache.storm.kafka.spout.FirstPollOffsetStrategy.UNCOMMITTED_EARLIEST;
 
-public class Main {
+public class KafkaTopology {
 
     private static final String KAFKA_TOPIC = "test";
     private static final String BOOTSTRAP_SERVER = "127.0.0.1:9092";

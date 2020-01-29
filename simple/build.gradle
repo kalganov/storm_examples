@@ -1,0 +1,3 @@
+dependencies {
+    compile group: 'org.apache.storm', name: 'storm-core', version: '2.1.0'
+}

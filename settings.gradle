@@ -1,3 +1,4 @@
 rootProject.name = 'storm_examples'
 include 'simple', 'kafka'
+include 'boot'
 
